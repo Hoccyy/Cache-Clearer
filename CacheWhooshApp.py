@@ -1,6 +1,5 @@
 # Cache Whoosh App
-# Made by @Hoccyy on github
-# Support me by following me there
+# @Hoccyy
 # January 10, 2022
 #
 # Version: 0.0.1
@@ -32,9 +31,7 @@ window.setLayout (grid)
 
 # Dictionary for widgets
 widgets = {
-    "Buttons" : [],
-    "Labels" : [],
-    "I forgor" : []
+    utton[
 }
 
 # Creates a button that clears cache
@@ -284,7 +281,7 @@ def iconMaker (location, height, width, row, column):
     # Adds logo widget to the widgets dictionary
     grid.addWidget (logo, row, column)
 
-# Adds github logo to the grid (follow me there @Hoccyy)
+# Adds github logo to the grid
 def gitMaker (location, height, width, row, column):
     image = QPixmap (location)
     logo = QLabel ()
